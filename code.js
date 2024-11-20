@@ -37,7 +37,7 @@ for (let i =1; i <array.length;i++){
             flip(array,i+1);
         }
     }
-    else if (array[i]>array[0] && array[1]<array[i-1]{
+    else if (array[i]>array[0] && array[i]<array[i-1]{
         flip(array,i+1);
         while (array[0] <= array[pos]){
             pos++;
