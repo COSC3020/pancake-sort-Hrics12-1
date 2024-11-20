@@ -1,7 +1,7 @@
 function flip(array, n) {
     let start = 0;
     while (start < n) {
-        [arr[start], arr[n]] = [arr[n], arr[start]];
+        [array[start], array[n]] = [array[n], array[start]];
         start++;
         n--;
     }
@@ -37,7 +37,7 @@ for (let i =1; i <array.length;i++){
             flip(array,i+1);
         }
     }
-    else if (array[i]>array[0] && array[i]<array[i-1]{
+    else if (array[i]>array[0] && array[i]<array[i-1]){
         flip(array,i+1);
         while (array[0] <= array[pos]){
             pos++;
