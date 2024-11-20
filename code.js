@@ -33,7 +33,7 @@ for (let i =1; i <array.length;i++){
             flip(array, i+1);
         }
         else{
-            flip(array,i)
+            flip(array,i);
             flip(array,i+1);
         }
     }
