@@ -26,28 +26,7 @@ function pancakeSort(array) {
         }
         curSize--;
 }
-for (let i =1; i <array.length;i++){
-    let pos = 0;
-    if (array[i] <=array[0]){
-        if (i ==1){
-            flip(array, i+1);
-        }
-        else{
-            flip(array,i);
-            flip(array,i+1);
-        }
-    }
-    else if (array[i]>array[0] && array[i]<array[i-1]){
-        flip(array,i+1);
-        while (array[0] <= array[pos]){
-            pos++;
-        }
-    flip(array,pos);
-    flip(array,pos -1);
-    flip(array,i+1);
-    
-}
-}
+
     return array;
 }
         
