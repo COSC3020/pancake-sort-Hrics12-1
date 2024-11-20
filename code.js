@@ -45,10 +45,10 @@ for (let i =1; i <array.length;i++){
     flip(array,pos);
     flip(array,pos -1);
     flip(array,i+1);
-    }
+    
 }
     return array;
-
+}
         
 
 
