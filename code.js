@@ -22,7 +22,7 @@ function pancakeSort(array) {
         }
         if (zero!==curSize - 1){
             flip(array,zero);
-            flip(array,curSize-1)
+            flip(array,curSize-1);
         }
         curSize--;
 }
