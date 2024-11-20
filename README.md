@@ -29,6 +29,9 @@ What is the asymptotic runtime ($\Theta$) of your algorithm in terms of the
 number of comparisons? What is it in terms of the number of flips? Add your
 answer to this markdown file.
 
+It's looking through the unsorted array linearly so the runtime for comparisons would be $\Theta(n^2)$ because it's doing $n-1$ comparisons for the first iteration, then there is $n-2$ comparisons for the second iteration and so on.. $(n-1)+(n-2)+(n-3)+...+1$. This is an arithmetic series $S = \frac {m*(m+1)}{2}$ and $n-1$ can be subbed in for $m$. $\frac {(n-1)*(n-1+1)}{2}$ = $\frac{(n-1)*n}{2}$ = $\frac {n^2-n}{2}$ = $n^2$. Because the $n^2$ term dominates the $-n$ term. For the flips they're just proportional to the iterations because they will only flip once or worst case twice so the runtime would be $\Theta(n)$  
+
+
 https://www.geeksforgeeks.org/reverse-an-array-in-groups-of-given-size/
 https://algo.monster/liteproblems/969
 https://www.geeksforgeeks.org/pancake-sorting/
