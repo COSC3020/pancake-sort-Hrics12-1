@@ -29,3 +29,6 @@ What is the asymptotic runtime ($\Theta$) of your algorithm in terms of the
 number of comparisons? What is it in terms of the number of flips? Add your
 answer to this markdown file.
 
+https://www.geeksforgeeks.org/reverse-an-array-in-groups-of-given-size/
+https://algo.monster/liteproblems/969
+https://www.geeksforgeeks.org/pancake-sorting/
