@@ -32,3 +32,4 @@ answer to this markdown file.
 https://www.geeksforgeeks.org/reverse-an-array-in-groups-of-given-size/
 https://algo.monster/liteproblems/969
 https://www.geeksforgeeks.org/pancake-sorting/
+https://www.geeksforgeeks.org/a-pancake-sorting-question/
